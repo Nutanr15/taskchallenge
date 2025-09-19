@@ -1,6 +1,6 @@
-# Automated Backup Solution to AWS S3
+# Automated Backup Solution
 
-This project provides a simple automated backup solution using a Bash script. The script compresses a specified directory and uploads it to an AWS S3 bucket. After the backup, it generates a log file that reports the success or failure of the operation.
+This project provides a simple automated backup solution using a python script. The script compresses a specified directory and uploads it to an AWS S3 bucket. After the backup, it generates a log file that reports the success or failure of the operation.
 
 ---
 
@@ -10,7 +10,7 @@ This project provides a simple automated backup solution using a Bash script. Th
    Make sure you have an AWS account with access to S3.
 
 2. **AWS CLI Installed**  
-   Install AWS CLI on your Ubuntu instance:
+   Install AWS CLI on your instance:
    ```bash
    sudo apt update && sudo apt install -y awscli
    ```
