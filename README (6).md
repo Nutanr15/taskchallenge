@@ -86,10 +86,3 @@ Check complete.
 
 ---
 
-## 🚀 Bonus Ideas
-- Schedule periodic runs with **cron jobs**:
-```bash
-*/5 * * * * /usr/bin/python3 /home/ubuntu/system_health_monitor.py >> /var/log/system_health.log 2>&1
-```
-- Redirect alerts to a log file.  
-- Extend the script to send **email, SMS, or Slack alerts**.  
