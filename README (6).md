@@ -1,4 +1,4 @@
-# System Health Monitoring Script (Python)
+# System Health Monitoring Script 
 
 This project provides a Python script to monitor the health of a Linux system.  
 It checks **CPU usage, memory usage, disk space, and running processes**. If any of these metrics exceed predefined thresholds, the script sends an alert to the console.
