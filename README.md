@@ -1,4 +1,4 @@
-# 📦 EC2 to S3 Backup Script
+# Automated Backup Solution:
 
 This project contains a Python script that automatically backs up files from an EC2 instance to an Amazon S3 bucket. Each backup is stored in a **timestamped folder** inside the bucket for versioning.
 
