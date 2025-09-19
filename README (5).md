@@ -62,22 +62,4 @@ Uploaded: backups/2025-09-19_18-30-12/file2.txt
 
 ---
 
-## ⏰ Automating with Cron (Optional)
-You can schedule automatic backups using cron:
-
-1. Edit cron jobs:
-   ```bash
-   crontab -e
-   ```
-
-2. Add a job (example: backup every day at 2 AM):
-   ```
-   0 2 * * * /usr/bin/python3 /home/ubuntu/backup_to_s3.py >> /home/ubuntu/backup.log 2>&1
-   ```
-
----
-
-## 🔒 Security Notes
-- Prefer **IAM roles** over storing access keys.  
-- Ensure your S3 bucket has proper permissions (not public).  
-- Monitor costs if backing up large files frequently.  
+  
